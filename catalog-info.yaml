@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-api
+  description: ''
+  annotations:
+    backstage.io/kubernetes-id: hello-api
+    platform.wasp.silvios.me/template: python-service@119e61f1d3590a77a7f9e57f6cf3f7f3480814ff
+    github.com/project-slug: wasp-idp-mp/hello-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-alpha
+  system: greeter
