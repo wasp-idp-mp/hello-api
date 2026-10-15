@@ -30,3 +30,4 @@ Without `DATABASE_HOST` the page shows that no database is configured. With a lo
     pip install --requirement requirements.txt --requirement requirements-dev.txt
     pytest
     uvicorn app.main:app --reload --port 8000
+Greets by name.
